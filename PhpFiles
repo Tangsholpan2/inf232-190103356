@@ -6,7 +6,6 @@ function test(){
    echo $x+8 . "</br>"; 
    
 }
-
 test();
 echo $x . "</br>";
 
@@ -19,8 +18,6 @@ function test2(){
 }
 test2();
 echo $x . "</br>";
-
-
 echo "Third Example" . "</br>";
 
 $x = "123456789";
