@@ -10,4 +10,10 @@ echo "My name is Tangsholpan";
 for($i=0; $i<100; $i++){
 $echo "Hello world! My name is Tangsholpan";
 }
+
+//Check to Palindrome
+function isPalindrome($n) {
+	$rev = strrev($n);
+	return $rev==$n;
+}
 ?>
