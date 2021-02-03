@@ -1,0 +1,46 @@
+<?php
+
+$x=81;
+echo "First Example";
+function test(){
+   echo $x+8 . "</br>"; 
+   
+}
+
+test();
+echo $x . "</br>";
+
+echo "Second Example" . "</br>";
+
+$x=81;
+function test2(){
+	$x=4;
+	echo $x+8 . "</br>";
+}
+test2();
+echo $x . "</br>";
+
+
+echo "Third Example" . "</br>";
+
+$x = "123456789";
+
+function test3(){
+	$x="987654321";
+	echo $x . "</br>";
+}
+test3();
+echo $x . "</br>";
+
+$txt = "PHP";
+echo "I love $txt!" . "</br>";
+
+$num = "бір екі";
+$int = floatval($num);
+echo $num;
+
+
+$f = new NumberFormatter("en", NumberFormatter::SPELLOUT);
+echo $f->format(123456);
+
+?>
