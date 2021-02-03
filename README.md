@@ -5,7 +5,7 @@ Demirel University.Now I am second year student of University.
 My occupation IS(Information Technology)
 I like coding and listening music.
 Also I like reading book and do exercise in the morning.
-My favorite singer is Michael Jackson
+My favorite singer is Michael Jackson.
 <?php
 echo "Hello world!";
 echo "My name is Tangsholpan";
