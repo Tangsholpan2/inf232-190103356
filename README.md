@@ -6,4 +6,8 @@ My occupation IS(Information Technology)
 <?php
 echo "Hello world!";
 echo "My name is Tangsholpan";
+
+for($i=0; $i<100; $i++){
+$echo "Hello world! My name is Tangsholpan";
+}
 ?>
